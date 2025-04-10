@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Cadastro</h2>
+    <form id="cadastroForm">
+      <label>Nome:</label>
+      <input type="text" id="nome" required />
+      <label>Instrumento:</label>
+      <input type="text" id="instrumento" required />
+      <button type="submit">Cadastrar</button>
+    </form>
+    <p id="cadastroStatus"></p>
+  </div>
+  <script src="js/db.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+</html>
