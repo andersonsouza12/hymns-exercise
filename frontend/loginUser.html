@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <label>Usuário</label>
+      <input type="text" id="loginNome" placeholder="nome" required />
+      <label>Senha</label>
+      <input type="password" id="loginSenha" placeholder="Instrumento" required />
+      <button type="submit">Entrar</button>
+    </form>
+    <p id="loginStatus"></p>
+  </div>
+  <script src="js/db.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+</html>
